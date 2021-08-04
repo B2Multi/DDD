@@ -1,0 +1,2898 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Textbox Name="Textbox2">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Transaction Information:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox2</rd:DefaultName>
+            <Top>0.37896cm</Top>
+            <Height>0.6cm</Height>
+            <Width>5.91312cm</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox3">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Acquirer’s Reference Data or Switch Serial Number:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>1.26972cm</Top>
+            <Height>0.6cm</Height>
+            <Width>7.80613cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox4">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!AcquireReference.Value</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>1.24326cm</Top>
+            <Left>7.98252cm</Left>
+            <Height>0.62646cm</Height>
+            <Width>10.91916cm</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <BackgroundColor>Lavender</BackgroundColor>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox5">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Merchant Name:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>2.08139cm</Top>
+            <Height>0.6cm</Height>
+            <Width>3.0027cm</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox6">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Number of Items:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>2.8225cm</Top>
+            <Height>0.6cm</Height>
+            <Width>3.0027cm</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox7">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!MerchantName.Value</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>2.08139cm</Top>
+            <Left>3.17592cm</Left>
+            <Height>0.6cm</Height>
+            <Width>5.83848cm</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <BackgroundColor>Lavender</BackgroundColor>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox8">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Transaction or Settlement Date:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>2.08139cm</Top>
+            <Left>9.22606cm</Left>
+            <Height>0.6cm</Height>
+            <Width>4.72249cm</Width>
+            <ZIndex>6</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox9">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Disputed Amount:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>2.85778cm</Top>
+            <Left>9.19078cm</Left>
+            <Height>0.6cm</Height>
+            <Width>3.13499cm</Width>
+            <ZIndex>7</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox10">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>01</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>2.85778cm</Top>
+            <Left>3.14064cm</Left>
+            <Height>0.6cm</Height>
+            <Width>5.87375cm</Width>
+            <ZIndex>8</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <BackgroundColor>Lavender</BackgroundColor>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox11">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!TransactionDate.Value</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>2.08139cm</Top>
+            <Left>14.21314cm</Left>
+            <Height>0.6cm</Height>
+            <Width>4.68855cm</Width>
+            <ZIndex>9</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <BackgroundColor>Lavender</BackgroundColor>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox12">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!DisputedAmount.Value</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>2.85778cm</Top>
+            <Left>14.21314cm</Left>
+            <Height>0.6cm</Height>
+            <Width>4.68855cm</Width>
+            <ZIndex>10</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <BackgroundColor>Lavender</BackgroundColor>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox13">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>If multiple transactions are charged back, include the first transaction detail above and supply in the </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>Additional Information</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> section below or on separate pages the remaining unauthorized transactions disputed by the cardholder. Include for each transaction the merchant name, Acquirer Reference Data or Switch Serial Number and transaction amount.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>3.63417cm</Top>
+            <Height>1.52521cm</Height>
+            <Width>18.90486cm</Width>
+            <ZIndex>11</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox14">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>By completing this form, the issuer certifies its knowledge of the cardholder’s claim that neither he, she, nor anyone authorized by him or her engaged in the transaction(s) provided with this form.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox14</rd:DefaultName>
+            <Top>5.33576cm</Top>
+            <Height>1.56986cm</Height>
+            <Width>18.90486cm</Width>
+            <ZIndex>12</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox15">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Card Status Information:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> Check all applicable boxes as required by the Chargeback Guide for this dispute.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox15</rd:DefaultName>
+            <Top>7.08201cm</Top>
+            <Height>0.5909cm</Height>
+            <Width>18.90486cm</Width>
+            <ZIndex>13</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox16">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIF(CBool(Parameters!Q1_No.Value), "x", "¨")</Value>
+                    <Style>
+                      <FontFamily>Wingdings</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox16</rd:DefaultName>
+            <Top>8.15242cm</Top>
+            <Left>17.12959cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.93896cm</Width>
+            <ZIndex>14</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox17">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIF(CBool(Parameters!Q1_Yes.Value), "x", "¨")</Value>
+                    <Style>
+                      <FontFamily>Wingdings</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox16</rd:DefaultName>
+            <Top>8.15242cm</Top>
+            <Left>15.23108cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.889cm</Width>
+            <ZIndex>15</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox18">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Yes</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>8.15242cm</Top>
+            <Left>16.12008cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.83313cm</Width>
+            <ZIndex>16</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox19">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>No</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>8.15242cm</Top>
+            <Left>18.06855cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.83313cm</Width>
+            <ZIndex>17</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox20">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIF(CBool(Parameters!Q2_No.Value), "x", "¨")</Value>
+                    <Style>
+                      <FontFamily>Wingdings</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox16</rd:DefaultName>
+            <Top>9.286cm</Top>
+            <Left>17.12959cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.93896cm</Width>
+            <ZIndex>18</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox21">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIF(CBool(Parameters!Q2_Yes.Value), "x", "¨")</Value>
+                    <Style>
+                      <FontFamily>Wingdings</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox16</rd:DefaultName>
+            <Top>9.286cm</Top>
+            <Left>15.23108cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.889cm</Width>
+            <ZIndex>19</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox22">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Yes</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>9.286cm</Top>
+            <Left>16.12008cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.83313cm</Width>
+            <ZIndex>20</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox23">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>No</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>9.286cm</Top>
+            <Left>18.06855cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.83313cm</Width>
+            <ZIndex>21</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox24">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIF(CBool(Parameters!Q3_No.Value), "x", "¨")</Value>
+                    <Style>
+                      <FontFamily>Wingdings</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox16</rd:DefaultName>
+            <Top>10.39725cm</Top>
+            <Left>17.12958cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.93896cm</Width>
+            <ZIndex>22</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox25">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIF(CBool(Parameters!Q3_Yes.Value), "x", "¨")</Value>
+                    <Style>
+                      <FontFamily>Wingdings</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox16</rd:DefaultName>
+            <Top>10.39725cm</Top>
+            <Left>15.23107cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.889cm</Width>
+            <ZIndex>23</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox26">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Yes</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>10.39725cm</Top>
+            <Left>16.12007cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.83313cm</Width>
+            <ZIndex>24</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox27">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>No</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>10.39725cm</Top>
+            <Left>18.06854cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.83313cm</Width>
+            <ZIndex>25</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox28">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIF(CBool(Parameters!Q4_No.Value), "x", "¨")</Value>
+                    <Style>
+                      <FontFamily>Wingdings</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox16</rd:DefaultName>
+            <Top>11.55613cm</Top>
+            <Left>17.12959cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.93896cm</Width>
+            <ZIndex>26</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox29">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIF(CBool(Parameters!Q4_Yes.Value), "x", "¨")</Value>
+                    <Style>
+                      <FontFamily>Wingdings</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox16</rd:DefaultName>
+            <Top>11.55613cm</Top>
+            <Left>15.23108cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.889cm</Width>
+            <ZIndex>27</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox30">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Yes</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>11.55613cm</Top>
+            <Left>16.12008cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.83313cm</Width>
+            <ZIndex>28</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox31">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>No</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>11.55613cm</Top>
+            <Left>18.06855cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.83313cm</Width>
+            <ZIndex>29</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox32">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIF(CBool(Parameters!Q5_No.Value), "x", "¨")</Value>
+                    <Style>
+                      <FontFamily>Wingdings</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox16</rd:DefaultName>
+            <Top>12.63563cm</Top>
+            <Left>17.12959cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.93896cm</Width>
+            <ZIndex>30</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox33">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIF(CBool(Parameters!Q5_Yes.Value), "x", "¨")</Value>
+                    <Style>
+                      <FontFamily>Wingdings</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox16</rd:DefaultName>
+            <Top>12.63563cm</Top>
+            <Left>15.23108cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.889cm</Width>
+            <ZIndex>31</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox34">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Yes</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>12.63563cm</Top>
+            <Left>16.12008cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.83313cm</Width>
+            <ZIndex>32</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox35">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>No</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>12.63563cm</Top>
+            <Left>18.06855cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.83313cm</Width>
+            <ZIndex>33</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox36">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIF(CBool(Parameters!Q6_No.Value), "x", "¨")</Value>
+                    <Style>
+                      <FontFamily>Wingdings</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox16</rd:DefaultName>
+            <Top>13.68867cm</Top>
+            <Left>17.12959cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.93896cm</Width>
+            <ZIndex>34</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox37">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIF(CBool(Parameters!Q6_Yes.Value), "x", "¨")</Value>
+                    <Style>
+                      <FontFamily>Wingdings</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox16</rd:DefaultName>
+            <Top>13.68867cm</Top>
+            <Left>15.23108cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.889cm</Width>
+            <ZIndex>35</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox38">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Yes</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>13.68867cm</Top>
+            <Left>16.12008cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.83313cm</Width>
+            <ZIndex>36</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox39">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>No</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>13.68867cm</Top>
+            <Left>18.06855cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.83313cm</Width>
+            <ZIndex>37</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox40">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIF(CBool(Parameters!Q7_No.Value), "x", "¨")</Value>
+                    <Style>
+                      <FontFamily>Wingdings</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox16</rd:DefaultName>
+            <Top>14.73642cm</Top>
+            <Left>17.12959cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.93896cm</Width>
+            <ZIndex>38</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox41">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIF(CBool(Parameters!Q7_Yes.Value), "x", "¨")</Value>
+                    <Style>
+                      <FontFamily>Wingdings</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox16</rd:DefaultName>
+            <Top>14.73642cm</Top>
+            <Left>15.23108cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.889cm</Width>
+            <ZIndex>39</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox42">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Yes</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>14.73642cm</Top>
+            <Left>16.12008cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.83313cm</Width>
+            <ZIndex>40</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox43">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>No</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>14.73642cm</Top>
+            <Left>18.06855cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.83313cm</Width>
+            <ZIndex>41</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox44">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>The card was closed and the issuer blocked the account on its host before the chargeback was processed:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox44</rd:DefaultName>
+            <Top>8.02542cm</Top>
+            <Height>0.727cm</Height>
+            <Width>15.05786cm</Width>
+            <ZIndex>42</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox45">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>The transaction was reported to the Fraud and Loss Database (prior SAFE) before processing chargeback:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox44</rd:DefaultName>
+            <Top>9.12725cm</Top>
+            <Height>0.75875cm</Height>
+            <Width>15.05787cm</Width>
+            <ZIndex>43</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox46">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>The account was listed on the Account Management Service Stand-In Account File with a “capture card” response until card expiration:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox44</rd:DefaultName>
+            <Top>10.25289cm</Top>
+            <Height>0.9175cm</Height>
+            <Width>15.05787cm</Width>
+            <ZIndex>44</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox47">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>The cardholder was not in possession nor in control of the card issued to the account at the time of the transaction. The card used was lost, stolen or never received issue (NRI):</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox44</rd:DefaultName>
+            <Top>11.34678cm</Top>
+            <Height>0.9175cm</Height>
+            <Width>15.05787cm</Width>
+            <ZIndex>45</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox48">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>The cardholder was in possession and control of the card issued to the account at the time of the transaction or the card used was counterfeit:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox44</rd:DefaultName>
+            <Top>12.44067cm</Top>
+            <Height>0.9175cm</Height>
+            <Width>15.05787cm</Width>
+            <ZIndex>46</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox49">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Reason code 4837 when charging back CAT 2 transactions: Was the card lost, stolen, or NRI at the time of the transaction?</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox44</rd:DefaultName>
+            <Top>13.53456cm</Top>
+            <Height>0.9175cm</Height>
+            <Width>15.05786cm</Width>
+            <ZIndex>47</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox50">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Reason Code 4840: Was one legitimate transaction made at the same merchant location and at the time of the transaction the cardholder was in possession and control of all cards?</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox44</rd:DefaultName>
+            <Top>14.59317cm</Top>
+            <Height>0.9175cm</Height>
+            <Width>15.05787cm</Width>
+            <ZIndex>48</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox51">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>“The issuer certifies that it complies with Mastercard Bylaws, Rules, policies and operating regulations and procedures of Mastercard (the “Standards”), written agreements and privacy laws and regulations applying to the protection of personal data. The issuer agrees that the personal data collected may be used according to Mastercard Standards and Mastercard’s Global Privacy Notice on </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>http://www.mastercard.us/privacy/</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>DarkBlue</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>. I certify that the facts were obtained from my discussion with the cardholder or the company/government agency representative on behalf of the corporate/government card cardholder and that the facts are accurate to the best of my knowledge.”</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox51</rd:DefaultName>
+            <Top>18.34417cm</Top>
+            <Height>1.76799cm</Height>
+            <Width>18.90485cm</Width>
+            <ZIndex>49</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox52">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>15.7974cm</Top>
+            <Height>2.26455cm</Height>
+            <Width>18.90486cm</Width>
+            <ZIndex>50</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <TopBorder>
+                <Color>Black</Color>
+                <Style>Solid</Style>
+                <Width>1pt</Width>
+              </TopBorder>
+              <BottomBorder>
+                <Color>Black</Color>
+                <Style>Solid</Style>
+                <Width>1pt</Width>
+              </BottomBorder>
+              <LeftBorder>
+                <Color>Black</Color>
+                <Style>Solid</Style>
+                <Width>1pt</Width>
+              </LeftBorder>
+              <RightBorder>
+                <Color>Black</Color>
+                <Style>Solid</Style>
+                <Width>1pt</Width>
+              </RightBorder>
+              <BackgroundColor>Lavender</BackgroundColor>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox53">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!CustomerRepresentative.Value</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>20.83507cm</Top>
+            <Left>6.95944cm</Left>
+            <Height>0.6cm</Height>
+            <Width>6.66751cm</Width>
+            <ZIndex>51</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <BackgroundColor>Lavender</BackgroundColor>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox54">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Customer Service/Chargeback Representative:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>20.83507cm</Top>
+            <Height>0.6cm</Height>
+            <Width>6.78624cm</Width>
+            <ZIndex>52</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox55">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!GenerateDate.Value</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>20.83507cm</Top>
+            <Left>14.9716cm</Left>
+            <Height>0.6cm</Height>
+            <Width>3.93008cm</Width>
+            <ZIndex>53</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <BackgroundColor>Lavender</BackgroundColor>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox56">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Date:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>20.83507cm</Top>
+            <Left>13.80335cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.99187cm</Width>
+            <ZIndex>54</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox57">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Issuer complete section below for </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>Reason Code 4871- Chip Liability Shift— Lost/Stolen/Never Received Issue (NRI) Fraud Chargeback only:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>Underline</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox57</rd:DefaultName>
+            <Top>22.88146cm</Top>
+            <Height>1.19562cm</Height>
+            <Width>18.90485cm</Width>
+            <ZIndex>55</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox58">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!CardIssuerRegion.Value</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>24.40959cm</Top>
+            <Left>4.02257cm</Left>
+            <Height>0.6cm</Height>
+            <Width>3.93008cm</Width>
+            <ZIndex>56</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <BackgroundColor>Lavender</BackgroundColor>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox59">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Card Issuer Region:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>24.40959cm</Top>
+            <Height>0.6cm</Height>
+            <Width>3.84937cm</Width>
+            <ZIndex>57</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox60">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Cardholder Verification Method (CVM) Hierarchy List Certification</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox60</rd:DefaultName>
+            <Top>25.18597cm</Top>
+            <Height>0.6cm</Height>
+            <Width>14.7984cm</Width>
+            <ZIndex>58</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox61">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Number the priority sequence of CVM supported by the card from highest to lowest priority as 1, 2, 3, 4. Number 1 being the highest priority CVM on the card. If a CVM is not supported, leave that CVM option blank. See examples below:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox61</rd:DefaultName>
+            <Top>25.96236cm</Top>
+            <Height>1.66014cm</Height>
+            <Width>18.90484cm</Width>
+            <ZIndex>59</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox62">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!OfflinePIN.Value</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>28.76226cm</Top>
+            <Height>0.6cm</Height>
+            <Width>3.93008cm</Width>
+            <ZIndex>60</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <BackgroundColor>Lavender</BackgroundColor>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox63">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!Signature.Value</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>29.50337cm</Top>
+            <Height>0.6cm</Height>
+            <Width>3.93008cm</Width>
+            <ZIndex>61</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <BackgroundColor>Lavender</BackgroundColor>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox64">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!NoneCVM.Value</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>30.27976cm</Top>
+            <Height>0.6cm</Height>
+            <Width>3.93008cm</Width>
+            <ZIndex>62</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <BackgroundColor>Lavender</BackgroundColor>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox65">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!OnlinePIN.Value</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>28.02115cm</Top>
+            <Height>0.6cm</Height>
+            <Width>3.93008cm</Width>
+            <ZIndex>63</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <BackgroundColor>Lavender</BackgroundColor>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox66">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Online PIN Preferring</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>28.02115cm</Top>
+            <Left>4.10328cm</Left>
+            <Height>0.63528cm</Height>
+            <Width>5.80728cm</Width>
+            <ZIndex>64</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox67">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Offline PIN</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>28.76226cm</Top>
+            <Left>4.10328cm</Left>
+            <Height>0.6cm</Height>
+            <Width>5.80728cm</Width>
+            <ZIndex>65</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox68">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Signature</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>29.57393cm</Top>
+            <Left>4.06801cm</Left>
+            <Height>0.6cm</Height>
+            <Width>5.80728cm</Width>
+            <ZIndex>66</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox69">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>None (No CVM)</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>30.27976cm</Top>
+            <Left>4.10328cm</Left>
+            <Height>0.6cm</Height>
+            <Width>5.80728cm</Width>
+            <ZIndex>67</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <Height>12.15739in</Height>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Body>
+      <Width>7.44286in</Width>
+      <Page>
+        <PageHeader>
+          <Height>2.5841cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Image Name="Image4">
+              <Source>Embedded</Source>
+              <Value>mc_vrt_opt_pos_53_2x</Value>
+              <MIMEType>image/png</MIMEType>
+              <Left>11.05168cm</Left>
+              <Height>2.30187cm</Height>
+              <Width>2.80458cm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+              </Style>
+            </Image>
+            <Textbox Name="Textbox1">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Dispute Resolution Form - Fraud</Value>
+                      <Style>
+                        <FontStyle>Normal</FontStyle>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontSize>18pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                        <TextDecoration>None</TextDecoration>
+                        <Color>#000000</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox1</rd:DefaultName>
+              <Top>0.52599cm</Top>
+              <Left>0.31432cm</Left>
+              <Height>0.83812cm</Height>
+              <Width>9.88188cm</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Line Name="Line1">
+              <Top>2.5841cm</Top>
+              <Height>0cm</Height>
+              <Width>18.90486cm</Width>
+              <ZIndex>2</ZIndex>
+              <Style>
+                <Border>
+                  <Style>Solid</Style>
+                  <Width>2pt</Width>
+                </Border>
+              </Style>
+            </Line>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <PageFooter>
+          <Height>0.92604cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="Textbox70">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>="Page " + Globals!PageNumber.ToString() + " of " + Globals!TotalPages.ToString()</Value>
+                      <Style>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox70</rd:DefaultName>
+              <Top>0.10583cm</Top>
+              <Left>5.05447cm</Left>
+              <Height>0.6cm</Height>
+              <Width>8.57248cm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox71">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Revised: September 2018</Value>
+                      <Style>
+                        <FontStyle>Normal</FontStyle>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Normal</FontWeight>
+                        <TextDecoration>None</TextDecoration>
+                        <Color>#000000</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox71</rd:DefaultName>
+              <Top>0.10583cm</Top>
+              <Left>13.80335cm</Left>
+              <Height>0.6cm</Height>
+              <Width>5.09832cm</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox72">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>412</Value>
+                      <Style>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox71</rd:DefaultName>
+              <Top>0.10583cm</Top>
+              <Left>0.31433cm</Left>
+              <Height>0.6cm</Height>
+              <Width>2.5cm</Width>
+              <ZIndex>2</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
+        <PageHeight>29.7cm</PageHeight>
+        <PageWidth>21cm</PageWidth>
+        <LeftMargin>1cm</LeftMargin>
+        <RightMargin>1cm</RightMargin>
+        <TopMargin>1cm</TopMargin>
+        <BottomMargin>1cm</BottomMargin>
+        <ColumnSpacing>0.13cm</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParameters>
+    <ReportParameter Name="AcquireReference">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="MerchantName">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="TransactionDate">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="DisputedAmount">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="CustomerRepresentative">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Q1_Yes">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Q1_No">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Q2_Yes">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Q2_No">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Q3_Yes">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Q3_No">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Q4_Yes">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Q4_No">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Q5_Yes">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Q5_No">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Q6_Yes">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Q6_No">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Q7_Yes">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Q7_No">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="OBS">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GenerateDate">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="CardIssuerRegion">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="OnlinePIN">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="OfflinePIN">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Signature">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="NoneCVM">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>7</NumberOfRows>
+      <CellDefinitions>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>AcquireReference</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>MerchantName</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>TransactionDate</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>DisputedAmount</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>CustomerRepresentative</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>Q1_Yes</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>Q1_No</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>Q2_Yes</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>Q2_No</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>Q3_Yes</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>Q3_No</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>3</RowIndex>
+          <ParameterName>Q4_Yes</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>3</RowIndex>
+          <ParameterName>Q4_No</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>3</RowIndex>
+          <ParameterName>Q5_Yes</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>3</RowIndex>
+          <ParameterName>Q5_No</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>4</RowIndex>
+          <ParameterName>Q6_Yes</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>4</RowIndex>
+          <ParameterName>Q6_No</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>4</RowIndex>
+          <ParameterName>Q7_Yes</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>4</RowIndex>
+          <ParameterName>Q7_No</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>5</RowIndex>
+          <ParameterName>OBS</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>5</RowIndex>
+          <ParameterName>GenerateDate</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>5</RowIndex>
+          <ParameterName>CardIssuerRegion</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>5</RowIndex>
+          <ParameterName>OnlinePIN</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>6</RowIndex>
+          <ParameterName>OfflinePIN</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>6</RowIndex>
+          <ParameterName>Signature</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>6</RowIndex>
+          <ParameterName>NoneCVM</ParameterName>
+        </CellDefinition>
+      </CellDefinitions>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <EmbeddedImages>
+    <EmbeddedImage Name="mc_vrt_opt_pos_53_2x">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="unchecked">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="checked">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>ba744183-64da-467a-b186-5503995dc565</rd:ReportID>
+</Report>

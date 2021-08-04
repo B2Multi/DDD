@@ -1,0 +1,14 @@
+C:\projetos\artigo\DDD\Infra\bin\Debug\netcoreapp3.1\Infra.deps.json
+C:\projetos\artigo\DDD\Infra\bin\Debug\netcoreapp3.1\Infra.dll
+C:\projetos\artigo\DDD\Infra\bin\Debug\netcoreapp3.1\Infra.pdb
+C:\projetos\artigo\DDD\Infra\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\projetos\artigo\DDD\Infra\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\projetos\artigo\DDD\Infra\obj\Debug\netcoreapp3.1\Infra.csprojAssemblyReference.cache
+C:\projetos\artigo\DDD\Infra\obj\Debug\netcoreapp3.1\Infra.AssemblyInfoInputs.cache
+C:\projetos\artigo\DDD\Infra\obj\Debug\netcoreapp3.1\Infra.AssemblyInfo.cs
+C:\projetos\artigo\DDD\Infra\obj\Debug\netcoreapp3.1\Infra.csproj.CoreCompileInputs.cache
+C:\projetos\artigo\DDD\Infra\obj\Debug\netcoreapp3.1\Infra.csproj.CopyComplete
+C:\projetos\artigo\DDD\Infra\obj\Debug\netcoreapp3.1\Infra.dll
+C:\projetos\artigo\DDD\Infra\obj\Debug\netcoreapp3.1\Infra.pdb
+C:\projetos\artigo\DDD\Infra\bin\Debug\netcoreapp3.1\Servico.dll
+C:\projetos\artigo\DDD\Infra\bin\Debug\netcoreapp3.1\Servico.pdb

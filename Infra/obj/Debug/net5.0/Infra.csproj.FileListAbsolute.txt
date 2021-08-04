@@ -1,0 +1,17 @@
+C:\projetos\artigo\DDD\Infra\bin\Debug\net5.0\Infra.deps.json
+C:\projetos\artigo\DDD\Infra\bin\Debug\net5.0\Infra.dll
+C:\projetos\artigo\DDD\Infra\bin\Debug\net5.0\ref\Infra.dll
+C:\projetos\artigo\DDD\Infra\bin\Debug\net5.0\Infra.pdb
+C:\projetos\artigo\DDD\Infra\bin\Debug\net5.0\Dominio.dll
+C:\projetos\artigo\DDD\Infra\bin\Debug\net5.0\Servico.dll
+C:\projetos\artigo\DDD\Infra\bin\Debug\net5.0\Dominio.pdb
+C:\projetos\artigo\DDD\Infra\bin\Debug\net5.0\Servico.pdb
+C:\projetos\artigo\DDD\Infra\obj\Debug\net5.0\Infra.csprojAssemblyReference.cache
+C:\projetos\artigo\DDD\Infra\obj\Debug\net5.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\artigo\DDD\Infra\obj\Debug\net5.0\Infra.AssemblyInfoInputs.cache
+C:\projetos\artigo\DDD\Infra\obj\Debug\net5.0\Infra.AssemblyInfo.cs
+C:\projetos\artigo\DDD\Infra\obj\Debug\net5.0\Infra.csproj.CoreCompileInputs.cache
+C:\projetos\artigo\DDD\Infra\obj\Debug\net5.0\Infra.csproj.CopyComplete
+C:\projetos\artigo\DDD\Infra\obj\Debug\net5.0\Infra.dll
+C:\projetos\artigo\DDD\Infra\obj\Debug\net5.0\ref\Infra.dll
+C:\projetos\artigo\DDD\Infra\obj\Debug\net5.0\Infra.pdb

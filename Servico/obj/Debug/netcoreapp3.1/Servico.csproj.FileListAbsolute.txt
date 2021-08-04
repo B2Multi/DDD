@@ -1,0 +1,12 @@
+C:\projetos\artigo\DDD\Servico\bin\Debug\netcoreapp3.1\Servico.deps.json
+C:\projetos\artigo\DDD\Servico\bin\Debug\netcoreapp3.1\Servico.dll
+C:\projetos\artigo\DDD\Servico\bin\Debug\netcoreapp3.1\Servico.pdb
+C:\projetos\artigo\DDD\Servico\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\projetos\artigo\DDD\Servico\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\projetos\artigo\DDD\Servico\obj\Debug\netcoreapp3.1\Servico.csprojAssemblyReference.cache
+C:\projetos\artigo\DDD\Servico\obj\Debug\netcoreapp3.1\Servico.AssemblyInfoInputs.cache
+C:\projetos\artigo\DDD\Servico\obj\Debug\netcoreapp3.1\Servico.AssemblyInfo.cs
+C:\projetos\artigo\DDD\Servico\obj\Debug\netcoreapp3.1\Servico.csproj.CoreCompileInputs.cache
+C:\projetos\artigo\DDD\Servico\obj\Debug\netcoreapp3.1\Servico.csproj.CopyComplete
+C:\projetos\artigo\DDD\Servico\obj\Debug\netcoreapp3.1\Servico.dll
+C:\projetos\artigo\DDD\Servico\obj\Debug\netcoreapp3.1\Servico.pdb
